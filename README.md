@@ -20,7 +20,7 @@ This repository contains the Jupyter Notebook (`.ipynb`) file for the project im
 You can install the required packages using:
 ```bash
 pip install psycopg2 fpdf
-
+```
 ## Setup Instructions:
 1. Clone the repository.
 2. Open the Invoice_Generator.ipynb file in a Jupyter Notebook environment.
