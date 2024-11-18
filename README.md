@@ -26,5 +26,16 @@ pip install psycopg2 fpdf
 2. Open the Invoice_Generator.ipynb file in a Jupyter Notebook environment.
 3. Follow the on-screen instructions in the notebook to run the project.
 
-## Database Setup:
+## SQL Commands:
 This project uses PostgreSQL for storing customer details. Make sure you have a PostgreSQL database running and configure the connection parameters in the notebook accordingly.
+```bash
+CREATE TABLE customer_info (
+     customer_id SERIAL PRIMARY KEY,
+     first_name VARCHAR(255),
+     last_name VARCHAR(255),
+     mobile_number VARCHAR(10),
+     email VARCHAR(255),
+     address VARCHAR(255),
+     total_amount_spent NUMERIC(10, 2) DEFAULT 0
+);
+```
